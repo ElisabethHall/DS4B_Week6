@@ -8,5 +8,21 @@ output: html_document
 # Bonus section
 
 ## Loading the data
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data <- read_csv("raw_data/data.csv")
+```
+
 
 ## An interesting plot
+```{r}
+ggplot(data,aes(y=VO2_ml_per_h, x=weight))+
+  geom_point()+
+  geom_smooth(method=lm)+
+  ylab("Metabolic rate (ml oxygen consumed per h)")+
+  ggtitle("Metabolic rate of Armases cinereum increases with weight")
+```
+
