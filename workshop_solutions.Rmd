@@ -1,0 +1,12 @@
+---
+title: "workshop_solutions"
+author: "Elisabeth Hall u6694208"
+date: "2023-08-31"
+output: html_document
+---
+
+# Bonus section
+
+## Loading the data
+
+## An interesting plot
